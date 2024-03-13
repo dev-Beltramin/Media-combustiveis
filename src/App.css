@@ -1,0 +1,64 @@
+.content h1 {
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.content img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.formulario label {
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.formulario input {
+  padding: 12px;
+  width: 765px;
+  max-width: 100%;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.result {
+  background-color: greenyellow;
+  text-align: center;
+  margin-top: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.result h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.result span {
+  font-size: 24px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.result p {
+  font-size: 18px;
+  padding: 8px;
+}
